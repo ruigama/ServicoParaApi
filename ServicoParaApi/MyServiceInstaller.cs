@@ -18,8 +18,8 @@ public class MyServiceInstaller : Installer
         // Configurar o instalador do serviço
         serviceInstaller = new ServiceInstaller();
         serviceInstaller.StartType = ServiceStartMode.Automatic;
-        serviceInstaller.ServiceName = "ServicoApi"; // Substitua pelo nome do seu serviço
-        serviceInstaller.Description = "Serviço de chamada de API"; // Substitua pela descrição do seu serviço
+        serviceInstaller.ServiceName = "ServicoApi";
+        serviceInstaller.Description = "Serviço de chamada de API";
 
         // Adicionar instaladores ao instalador principal
         Installers.Add(processInstaller);
